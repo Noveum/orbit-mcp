@@ -51,7 +51,7 @@ This repository contains client connection metadata and the Orbit logo. It does 
 
 ## Validation
 
-Installing the public repository with Gemini CLI 0.26.0 succeeded in an isolated profile. Cursor metadata passes the official plugin-template validator; Cursor IDE installation has not yet been exercised. That verifies package loading, not a complete authenticated Gemini session. Authentication still requires the user's interactive Orbit consent.
+Installing the public repository with Gemini CLI 0.26.0 succeeded in an isolated profile. Claude Code 2.1.281 validated both manifests and installed the public GitHub plugin in a separate isolated profile. Cursor metadata passes the official plugin-template validator; Cursor IDE installation has not yet been exercised. These checks verify package loading, not complete authenticated client sessions. Authentication still requires the user's interactive Orbit consent.
 
 ## Support
 
