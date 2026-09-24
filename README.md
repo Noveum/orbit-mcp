@@ -2,7 +2,7 @@
 
 <p align="center"><img src="assets/logo.png" width="96" alt="Orbit logo"></p>
 
-Connect Gemini CLI and Cursor to [Orbit](https://orbit.noveum.ai), a free, open-source task manager for people and agents. Manage issues, projects, sprints, docs and files in the workspace you authorize.
+Connect Gemini CLI, Claude Code and Cursor to [Orbit](https://orbit.noveum.ai), a free, open-source task manager for people and agents. Manage issues, projects, sprints, docs and files in the workspace you authorize.
 
 **Remote MCP endpoint:** `https://orbit.noveum.ai/mcp`
 
@@ -15,6 +15,17 @@ gemini extensions install https://github.com/Noveum/orbit-mcp
 Review the installation prompt, restart Gemini CLI, and authenticate the Orbit server when prompted. You can start authentication with `/mcp auth orbit`. Sign into Orbit, select a workspace and complete its consent and passkey verification. The connection uses Streamable HTTP and OAuth. No API key is required.
 
 Confirm the extension is installed with `gemini extensions list`. Use `/mcp` inside Gemini CLI to inspect connection status and available tools. Tool availability depends on the permissions you grant.
+
+## Install in Claude Code
+
+Add the public plugin marketplace, then install Orbit:
+
+```sh
+claude plugin marketplace add Noveum/orbit-mcp
+claude plugin install orbit@noveum-orbit
+```
+
+Restart Claude Code, open `/mcp`, and authenticate Orbit in the browser. Sign into Orbit, select a workspace and approve its permissions with passkey verification. This plugin connects directly to the hosted MCP URL; it does not execute a local server, hooks or setup scripts. Inclusion in Anthropic's official directory is separate and is not claimed here.
 
 ## Cursor
 

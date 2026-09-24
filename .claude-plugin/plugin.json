@@ -1,0 +1,10 @@
+{
+  "name": "orbit",
+  "version": "0.1.0",
+  "description": "Manage Orbit issues, projects, sprints, docs and files through the hosted OAuth MCP server.",
+  "author": { "name": "Noveum", "email": "shashank@noveum.ai" },
+  "homepage": "https://orbit.noveum.ai",
+  "repository": "https://github.com/Noveum/orbit-mcp",
+  "license": "Apache-2.0",
+  "keywords": ["orbit", "task-management", "project-management", "mcp"]
+}

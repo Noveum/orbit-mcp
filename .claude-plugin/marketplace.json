@@ -1,0 +1,6 @@
+{
+  "name": "noveum-orbit",
+  "owner": { "name": "Noveum", "email": "shashank@noveum.ai" },
+  "metadata": { "description": "Hosted Orbit MCP connection" },
+  "plugins": [{ "name": "orbit", "source": "./", "description": "Connect to Orbit with workspace-scoped OAuth." }]
+}
