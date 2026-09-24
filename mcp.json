@@ -1,0 +1,5 @@
+{
+  "mcpServers": {
+    "orbit": { "url": "https://orbit.noveum.ai/mcp" }
+  }
+}
