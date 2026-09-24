@@ -1,0 +1,10 @@
+{
+  "name": "orbit",
+  "version": "0.1.0",
+  "description": "Manage Orbit issues, projects, sprints, docs and files using workspace-scoped OAuth.",
+  "mcpServers": {
+    "orbit": {
+      "httpUrl": "https://orbit.noveum.ai/mcp"
+    }
+  }
+}
